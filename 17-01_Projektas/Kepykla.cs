@@ -28,7 +28,7 @@ namespace _17_01_Projektas
 
             Console.WriteLine(Pavadinimas);
             Console.WriteLine(Adresas);
-            Console.WriteLine("Kepykla {0} adresu);
+            Console.WriteLine("Kepykla {0} adresu {1}", Pavadinimas, adresas);
             foreach (var duona in Duonos)
             {
                 duona.Isvedimas();
